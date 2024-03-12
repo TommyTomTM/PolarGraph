@@ -16,7 +16,7 @@ def scale_gcode_auto(input_file, output_file, XMax, YMax, debug=False):
 
     # Calculate scale factor
     max_x = max(x_values)
-    min_x = min(x_values)
+    min_x = min(x_values)qfqefqe
     max_y = max(y_values)
     min_y = min(y_values)
     scale_factor = max(abs(max_x) - abs(min_x), abs(max_y) - abs(min_y)) / max(XMax, YMax)
